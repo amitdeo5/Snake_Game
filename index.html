@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css" type=text/css>
+    
+    </head>
+
+<body>
+
+<div class="container">
+    <!----black screne-->
+<div id="overlay">
+    GREAT ! <br>Your Final score:<span id="final_score"></span>
+    <br><br>
+    <a onclick="window.location.reload()" href="#">Play Again</a>
+</div>
+
+<canvas id="canvas" width="600" height="400">
+    refer Google chrome or other browser
+</canvas>
+<div id="stats">
+    <div id="score"></div>
+    <div id="high_score"></div>
+ <button onClick="resetScore()" id="reset_score">Reset High Score</button>
+</div>
+
+
+
+
+</div>
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>    
